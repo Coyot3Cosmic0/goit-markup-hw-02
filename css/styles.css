@@ -1,89 +1,192 @@
-.text-Todo {
+.WebStudio-logo{
+    position: absolute;
+    width: 145px;
+    left: 215px;
+    top: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-nav {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.estudio {
+    position: absolute;
+    width: 49px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+    list-style: none;
+}
+
+.portafolio {
+    position: absolute;
+    width: 65px;
+    height: 16px;
+    left: 552px;
+    top: 32px;
+    list-style: none;
+}
+
+.contactos {
+    position: absolute;
+    width: 59px;
+    height: 16px;
+    left: 679px;
+    top: 32px;
+    list-style: none;
+}
+
+.email {
+    position: absolute;
+    text-decoration: none;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+    color: #757575;
+}
+
+.email-logo {
+    width: 16px;
+    height: 12px;
+    position: absolute;
+    left: 1052px;
+    top: 34px;
+    bottom: 1834px;
+    right: 532px;
+}
+
+.telefono {
+    position: absolute;
+    text-decoration: none;
+    width: 118px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    color: #757575;
+}
+
+.telefono-logo {
+    position: absolute;
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    left: 1243px;
+    top: 32px;
+    bottom: 1832px;
+    right: 347px;
+}
+
+.bg {
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 4px;
+    right: 4px;
+    top: 80px;
+    bottom: 1730px;
+}
+
+.título {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 448px;
+    top: 280px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.botonazul {
+    position: absolute;
+    width: 261px;
+    height: 50px;
+    left: 666px;
+    top: 430px;
+    padding: 10px 32px 10px 32px;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.text-nav { 
+    position: absolute;
+    margin: 8px;
+    color: #212121;
+    background-color:#F5F4FA;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size:16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+}
+
+
+.todo {
     left: 495px;
     top: 186px;
     width: 38px;
     height: 26px;
     padding: 6px 18px 6px 17px;
-    position: absolute;
-    color: #212121;
-    background-color:#F5F4FA;
-    margin: 8px;
-    font-weight: 500;
-    font-size:16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    border-radius: 4px;    
+    
 }
 
-.text-Sitios-web {
+.sitios-web {
     left: 576px;
     top: 186px;
     width: 80px;
     height: 26px;
     padding: 6px 24px 6px 24px;
-    position: absolute;
-    color: #212121;
-    background-color:#F5F4FA;
-    margin: 8px;
-    font-weight: 500;
-    font-size:16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    border-radius: 4px;
 }
 
-.text-Aplicaciones {
-    position: absolute;
+.aplicaciones {
     left: 712px;
     top: 186px;
     width: 98px;
     height: 26px;
-    color: #212121;
     padding: 6px 23px 6px 24px;
-    margin: 8px;
-    background-color:#F5F4FA;
-    font-weight: 500;
-    font-size:16px;
-    line-height: 26px;
-    text-align:center;
-    letter-spacing: 0.03em;
-    border-radius: 4px;
 }
 
-.text-Diseño {
-    position: absolute;
+.diseño {
     left: 865px;
     top: 186px;
     width: 52px;
     height: 26px;
-    color: #212121;
     padding: 6px 26px 6px 25px;
-    margin: 8px;
-    background-color:#F5F4FA;
-    font-weight: 500;
-    font-size:16px;
-    line-height: 26px;
-    text-align:center;
-    letter-spacing: 0.03em;
-    border-radius: 4px;
 }
 
-.text-Marketing {
-    position: absolute;
+.marketing {
     left: 976px;
     top: 186px;
     width: 77px;
     height: 26px;
-    color: #212121;
     padding: 6px 26px 6px 27px;
-    margin: 8px;
-    background-color:#F5F4FA;
-    font-weight: 500;
-    font-size:16px;
-    line-height: 26px;
-    text-align:center;
-    letter-spacing: 0.03em;
-    border-radius: 4px;
 }
